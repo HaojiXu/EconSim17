@@ -1,0 +1,36 @@
+{
+    "meta": {
+        "creator": "Robin Xu",
+        "version": "r1.0.0",
+        "desc": "Vanilla Ruleset for EconSim17"
+    },
+    "facilities": [
+                   {
+                   "name": "Library",
+                   "buildCost": 200,
+                   "revenue": {
+                   "meta-type": "per-tick",
+                   "knowledge": 200,
+                   "population": -1
+                   }
+                   },
+                   {
+                   "name": "Agricultural Plant 1",
+                   "buildCost": 1000,
+                   "revenue": {
+                   "meta-type": "per-tick",
+                   "food": 10
+                   }
+                   }
+                   ],
+    "pertick-checks": [
+                       {
+                       "from": "food",
+                       "fromAmount": 10,
+                       "to": "population",
+                       "toAmount": 2,
+                       "ifFail": "toValueChange",
+                       "FailAmount": -1
+                       }
+                       ]
+}

@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B0071F01ED43376006F9EF9 /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0071EF1ED43376006F9EF9 /* GuideViewController.swift */; };
+		2BD18D5E1ED1C705009ED138 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD18D5D1ED1C705009ED138 /* AppDelegate.swift */; };
+		2BD18D601ED1C705009ED138 /* OverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD18D5F1ED1C705009ED138 /* OverViewController.swift */; };
+		2BD18D621ED1C705009ED138 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD18D611ED1C705009ED138 /* SecondViewController.swift */; };
+		2BD18D651ED1C705009ED138 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BD18D631ED1C705009ED138 /* Main.storyboard */; };
+		2BD18D671ED1C705009ED138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BD18D661ED1C705009ED138 /* Assets.xcassets */; };
+		2BD18D6A1ED1C705009ED138 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BD18D681ED1C705009ED138 /* LaunchScreen.storyboard */; };
+		2BD18D751ED1C705009ED138 /* EconSim17Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD18D741ED1C705009ED138 /* EconSim17Tests.swift */; };
+		2BD18D801ED1C705009ED138 /* EconSim17UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD18D7F1ED1C705009ED138 /* EconSim17UITests.swift */; };
+		2BD18D8F1ED1C7A5009ED138 /* ModelAppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD18D8E1ED1C7A5009ED138 /* ModelAppController.swift */; };
+		2BD18D911ED1C808009ED138 /* ModelEconomy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD18D901ED1C808009ED138 /* ModelEconomy.swift */; };
+		2BE512061ED69059001CBE0A /* VanillaRuleset.json in Resources */ = {isa = PBXBuildFile; fileRef = 2BE512051ED69059001CBE0A /* VanillaRuleset.json */; };
+		2BFAF6ED1ED4407B0080565A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFAF6EC1ED4407B0080565A /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BD18D711ED1C705009ED138 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BD18D521ED1C704009ED138 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BD18D591ED1C704009ED138;
+			remoteInfo = EconSim17;
+		};
+		2BD18D7C1ED1C705009ED138 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BD18D521ED1C704009ED138 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BD18D591ED1C704009ED138;
+			remoteInfo = EconSim17;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B0071EF1ED43376006F9EF9 /* GuideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
+		2BD18D5A1ED1C705009ED138 /* EconSim17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EconSim17.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD18D5D1ED1C705009ED138 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2BD18D5F1ED1C705009ED138 /* OverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverViewController.swift; sourceTree = "<group>"; };
+		2BD18D611ED1C705009ED138 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2BD18D641ED1C705009ED138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BD18D661ED1C705009ED138 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BD18D691ED1C705009ED138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BD18D6B1ED1C705009ED138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BD18D701ED1C705009ED138 /* EconSim17Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EconSim17Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD18D741ED1C705009ED138 /* EconSim17Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EconSim17Tests.swift; sourceTree = "<group>"; };
+		2BD18D761ED1C705009ED138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BD18D7B1ED1C705009ED138 /* EconSim17UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EconSim17UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD18D7F1ED1C705009ED138 /* EconSim17UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EconSim17UITests.swift; sourceTree = "<group>"; };
+		2BD18D811ED1C705009ED138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BD18D8E1ED1C7A5009ED138 /* ModelAppController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelAppController.swift; sourceTree = "<group>"; };
+		2BD18D901ED1C808009ED138 /* ModelEconomy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelEconomy.swift; sourceTree = "<group>"; };
+		2BE512051ED69059001CBE0A /* VanillaRuleset.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = VanillaRuleset.json; sourceTree = "<group>"; };
+		2BFAF6EC1ED4407B0080565A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BD18D571ED1C704009ED138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD18D6D1ED1C705009ED138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD18D781ED1C705009ED138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BD18D511ED1C704009ED138 = {
+			isa = PBXGroup;
+			children = (
+				2BD18D5C1ED1C705009ED138 /* EconSim17 */,
+				2BD18D731ED1C705009ED138 /* EconSim17Tests */,
+				2BD18D7E1ED1C705009ED138 /* EconSim17UITests */,
+				2BD18D5B1ED1C705009ED138 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BD18D5B1ED1C705009ED138 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BD18D5A1ED1C705009ED138 /* EconSim17.app */,
+				2BD18D701ED1C705009ED138 /* EconSim17Tests.xctest */,
+				2BD18D7B1ED1C705009ED138 /* EconSim17UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BD18D5C1ED1C705009ED138 /* EconSim17 */ = {
+			isa = PBXGroup;
+			children = (
+				2BE512051ED69059001CBE0A /* VanillaRuleset.json */,
+				2BE511FB1ED684D2001CBE0A /* ModelRuleset */,
+				2BD18D8D1ED1C789009ED138 /* Model */,
+				2BD18D5D1ED1C705009ED138 /* AppDelegate.swift */,
+				2BD18D5F1ED1C705009ED138 /* OverViewController.swift */,
+				2BD18D611ED1C705009ED138 /* SecondViewController.swift */,
+				2BD18D631ED1C705009ED138 /* Main.storyboard */,
+				2BD18D661ED1C705009ED138 /* Assets.xcassets */,
+				2BD18D681ED1C705009ED138 /* LaunchScreen.storyboard */,
+				2BD18D6B1ED1C705009ED138 /* Info.plist */,
+				2B0071EF1ED43376006F9EF9 /* GuideViewController.swift */,
+				2BFAF6EC1ED4407B0080565A /* SettingsViewController.swift */,
+			);
+			path = EconSim17;
+			sourceTree = "<group>";
+		};
+		2BD18D731ED1C705009ED138 /* EconSim17Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2BD18D741ED1C705009ED138 /* EconSim17Tests.swift */,
+				2BD18D761ED1C705009ED138 /* Info.plist */,
+			);
+			path = EconSim17Tests;
+			sourceTree = "<group>";
+		};
+		2BD18D7E1ED1C705009ED138 /* EconSim17UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BD18D7F1ED1C705009ED138 /* EconSim17UITests.swift */,
+				2BD18D811ED1C705009ED138 /* Info.plist */,
+			);
+			path = EconSim17UITests;
+			sourceTree = "<group>";
+		};
+		2BD18D8D1ED1C789009ED138 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2BD18D8E1ED1C7A5009ED138 /* ModelAppController.swift */,
+				2BD18D901ED1C808009ED138 /* ModelEconomy.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2BE511FB1ED684D2001CBE0A /* ModelRuleset */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ModelRuleset;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BD18D591ED1C704009ED138 /* EconSim17 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BD18D841ED1C705009ED138 /* Build configuration list for PBXNativeTarget "EconSim17" */;
+			buildPhases = (
+				2BD18D561ED1C704009ED138 /* Sources */,
+				2BD18D571ED1C704009ED138 /* Frameworks */,
+				2BD18D581ED1C704009ED138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EconSim17;
+			productName = EconSim17;
+			productReference = 2BD18D5A1ED1C705009ED138 /* EconSim17.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BD18D6F1ED1C705009ED138 /* EconSim17Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BD18D871ED1C705009ED138 /* Build configuration list for PBXNativeTarget "EconSim17Tests" */;
+			buildPhases = (
+				2BD18D6C1ED1C705009ED138 /* Sources */,
+				2BD18D6D1ED1C705009ED138 /* Frameworks */,
+				2BD18D6E1ED1C705009ED138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BD18D721ED1C705009ED138 /* PBXTargetDependency */,
+			);
+			name = EconSim17Tests;
+			productName = EconSim17Tests;
+			productReference = 2BD18D701ED1C705009ED138 /* EconSim17Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BD18D7A1ED1C705009ED138 /* EconSim17UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BD18D8A1ED1C705009ED138 /* Build configuration list for PBXNativeTarget "EconSim17UITests" */;
+			buildPhases = (
+				2BD18D771ED1C705009ED138 /* Sources */,
+				2BD18D781ED1C705009ED138 /* Frameworks */,
+				2BD18D791ED1C705009ED138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BD18D7D1ED1C705009ED138 /* PBXTargetDependency */,
+			);
+			name = EconSim17UITests;
+			productName = EconSim17UITests;
+			productReference = 2BD18D7B1ED1C705009ED138 /* EconSim17UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BD18D521ED1C704009ED138 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Robin Xu";
+				TargetAttributes = {
+					2BD18D591ED1C704009ED138 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = Z69AQSMFCE;
+						ProvisioningStyle = Automatic;
+					};
+					2BD18D6F1ED1C705009ED138 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2BD18D591ED1C704009ED138;
+					};
+					2BD18D7A1ED1C705009ED138 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2BD18D591ED1C704009ED138;
+					};
+				};
+			};
+			buildConfigurationList = 2BD18D551ED1C704009ED138 /* Build configuration list for PBXProject "EconSim17" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BD18D511ED1C704009ED138;
+			productRefGroup = 2BD18D5B1ED1C705009ED138 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BD18D591ED1C704009ED138 /* EconSim17 */,
+				2BD18D6F1ED1C705009ED138 /* EconSim17Tests */,
+				2BD18D7A1ED1C705009ED138 /* EconSim17UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BD18D581ED1C704009ED138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD18D6A1ED1C705009ED138 /* LaunchScreen.storyboard in Resources */,
+				2BD18D671ED1C705009ED138 /* Assets.xcassets in Resources */,
+				2BE512061ED69059001CBE0A /* VanillaRuleset.json in Resources */,
+				2BD18D651ED1C705009ED138 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD18D6E1ED1C705009ED138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD18D791ED1C705009ED138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BD18D561ED1C704009ED138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD18D621ED1C705009ED138 /* SecondViewController.swift in Sources */,
+				2B0071F01ED43376006F9EF9 /* GuideViewController.swift in Sources */,
+				2BFAF6ED1ED4407B0080565A /* SettingsViewController.swift in Sources */,
+				2BD18D911ED1C808009ED138 /* ModelEconomy.swift in Sources */,
+				2BD18D8F1ED1C7A5009ED138 /* ModelAppController.swift in Sources */,
+				2BD18D5E1ED1C705009ED138 /* AppDelegate.swift in Sources */,
+				2BD18D601ED1C705009ED138 /* OverViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD18D6C1ED1C705009ED138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD18D751ED1C705009ED138 /* EconSim17Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD18D771ED1C705009ED138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD18D801ED1C705009ED138 /* EconSim17UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BD18D721ED1C705009ED138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BD18D591ED1C704009ED138 /* EconSim17 */;
+			targetProxy = 2BD18D711ED1C705009ED138 /* PBXContainerItemProxy */;
+		};
+		2BD18D7D1ED1C705009ED138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BD18D591ED1C704009ED138 /* EconSim17 */;
+			targetProxy = 2BD18D7C1ED1C705009ED138 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BD18D631ED1C705009ED138 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BD18D641ED1C705009ED138 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BD18D681ED1C705009ED138 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BD18D691ED1C705009ED138 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BD18D821ED1C705009ED138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BD18D831ED1C705009ED138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BD18D851ED1C705009ED138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z69AQSMFCE;
+				INFOPLIST_FILE = EconSim17/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.aurura.alpha.EconSim17;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2BD18D861ED1C705009ED138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z69AQSMFCE;
+				INFOPLIST_FILE = EconSim17/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.aurura.alpha.EconSim17;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2BD18D881ED1C705009ED138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EconSim17Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.aurura.EconSim17Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EconSim17.app/EconSim17";
+			};
+			name = Debug;
+		};
+		2BD18D891ED1C705009ED138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EconSim17Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.aurura.EconSim17Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EconSim17.app/EconSim17";
+			};
+			name = Release;
+		};
+		2BD18D8B1ED1C705009ED138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EconSim17UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.aurura.EconSim17UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EconSim17;
+			};
+			name = Debug;
+		};
+		2BD18D8C1ED1C705009ED138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EconSim17UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.aurura.EconSim17UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EconSim17;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BD18D551ED1C704009ED138 /* Build configuration list for PBXProject "EconSim17" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BD18D821ED1C705009ED138 /* Debug */,
+				2BD18D831ED1C705009ED138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BD18D841ED1C705009ED138 /* Build configuration list for PBXNativeTarget "EconSim17" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BD18D851ED1C705009ED138 /* Debug */,
+				2BD18D861ED1C705009ED138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BD18D871ED1C705009ED138 /* Build configuration list for PBXNativeTarget "EconSim17Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BD18D881ED1C705009ED138 /* Debug */,
+				2BD18D891ED1C705009ED138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BD18D8A1ED1C705009ED138 /* Build configuration list for PBXNativeTarget "EconSim17UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BD18D8B1ED1C705009ED138 /* Debug */,
+				2BD18D8C1ED1C705009ED138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BD18D521ED1C704009ED138 /* Project object */;
+}
