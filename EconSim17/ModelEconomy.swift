@@ -17,6 +17,8 @@ class Economy: NSObject, NSCoding {
         "income" : 0
     
     ]
+    
+    var productionFacilities: Array<ProductionEntity>
 
     var tickSpeed: Int = 100000
     
@@ -25,6 +27,8 @@ class Economy: NSObject, NSCoding {
         properties["balance"] = 1000
         properties["population"] = 5
         properties["income"] = 10
+        
+        productionFacilities = []
         
         super.init()
         

@@ -37,6 +37,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if appVersion == nil || appVersion != currentAppVersion {
             userDefaults.setValue(currentAppVersion, forKey: "appVersion")
             
+            // Load vanilla ruleset
+            
+            
             let guideViewController = storyboard.instantiateViewController(withIdentifier: "GuideViewController") as! GuideViewController
             self.window?.rootViewController = guideViewController
             

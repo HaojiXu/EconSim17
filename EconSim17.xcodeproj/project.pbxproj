@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2B0071F01ED43376006F9EF9 /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0071EF1ED43376006F9EF9 /* GuideViewController.swift */; };
+		2B98CA6F1EDB34BB004501AB /* ModelProductionEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B98CA6E1EDB34BB004501AB /* ModelProductionEntity.swift */; };
 		2BD18D5E1ED1C705009ED138 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD18D5D1ED1C705009ED138 /* AppDelegate.swift */; };
 		2BD18D601ED1C705009ED138 /* OverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD18D5F1ED1C705009ED138 /* OverViewController.swift */; };
 		2BD18D621ED1C705009ED138 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD18D611ED1C705009ED138 /* SecondViewController.swift */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		2B0071EF1ED43376006F9EF9 /* GuideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
+		2B98CA6E1EDB34BB004501AB /* ModelProductionEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelProductionEntity.swift; sourceTree = "<group>"; };
 		2BD18D5A1ED1C705009ED138 /* EconSim17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EconSim17.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BD18D5D1ED1C705009ED138 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BD18D5F1ED1C705009ED138 /* OverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverViewController.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 			children = (
 				2BD18D8E1ED1C7A5009ED138 /* ModelAppController.swift */,
 				2BD18D901ED1C808009ED138 /* ModelEconomy.swift */,
+				2B98CA6E1EDB34BB004501AB /* ModelProductionEntity.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				2BD18D621ED1C705009ED138 /* SecondViewController.swift in Sources */,
 				2B0071F01ED43376006F9EF9 /* GuideViewController.swift in Sources */,
 				2BFAF6ED1ED4407B0080565A /* SettingsViewController.swift in Sources */,
+				2B98CA6F1EDB34BB004501AB /* ModelProductionEntity.swift in Sources */,
 				2BD18D911ED1C808009ED138 /* ModelEconomy.swift in Sources */,
 				2BD18D8F1ED1C7A5009ED138 /* ModelAppController.swift in Sources */,
 				2BD18D5E1ED1C705009ED138 /* AppDelegate.swift in Sources */,

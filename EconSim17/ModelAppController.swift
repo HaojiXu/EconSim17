@@ -59,6 +59,10 @@ class AppController {
             return String(describing: self.economy.properties["income"]!)
         }
         
+        if sect == 2 {
+            return String(describing: self.economy.properties["population"])
+        }
+        
         return "null"
         
     }

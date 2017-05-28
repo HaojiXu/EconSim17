@@ -20,11 +20,10 @@ class OverViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         [
             ("Balance",0),
             ("Income",1),
-            ("-",2),
+            ("Population",2),
             ("-",3),
             ]
     
-    //初始化table，为了简化代码，frame为全屏尺寸
     let table:UITableView = UITableView(frame:CGRect(x:UIScreen.main.bounds.origin.x, y:UIScreen.main.bounds.origin.y+20, width:UIScreen.main.bounds.width, height:UIScreen.main.bounds.height), style:UITableViewStyle.plain)
 
     
